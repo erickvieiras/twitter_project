@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer utilities {
+  :root {
+    --twitter-blue: #1da1f2;
+    --twitter-black: #14171a;
+    --twitter-dark-gray: #657786;
+    --twitter-light-gray: #aab8c2;
+    --twitter-extra-light-gray: #e1e8ed;
+    --twitter-background: #15202b;
+  }
+}
+
+@layer base {
+  .twitter-background {
+    background-color: var(--twitter-background);
+  }
+
+  .twitter-extra-light-gray {
+    color: var(--twitter-extra-light-gray);
+  }
+
+  .twitter-blue {
+    color: var(--twitter-blue);
+  }
+
+  .twitter-black {
+    color: var(--twitter-black);
+  }
+
+  .twitter-dark-gray {
+    color: var(--twitter-dark-gray);
+  }
+
+  .twitter-light-gray {
+    color: var(--twitter-extra-light-gray);
+  }
+}
+
+body {
+  background-color: var(--twitter-background);
+  color: white;
+}
