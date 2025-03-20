@@ -1,3 +1,5 @@
+"use client";
+
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import {
   faBell,
@@ -50,7 +52,7 @@ export default function Sidebar() {
       </button>
       <FontAwesomeIcon
         icon={faFeatherAlt}
-        className="text-blue-500 m-4 inline xl:hidden"
+        className="text-blue-500 m-4 !hidden xl:inline" // Use 'xl:inline' para exibir no tamanho xl
         style={{ width: "32px", height: "32px" }}
       />
     </div>
